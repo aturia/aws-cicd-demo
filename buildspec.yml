@@ -1,5 +1,8 @@
 version: 0.2
 phases:
+  pre_build:
+    commands:
+      - ls -la
   install:
     commands:
       - echo Installing dependencies...
